@@ -24,17 +24,30 @@
   <body ng-app="starter">
     <style>
         .img-round{
-          width: 100%;
+          width: 96%;
+          margin: 0 auto;
+          display: block;
+          margin-bottom: 4%;
+          border-radius: 5px;
+        }
+        .bar.bar-stable{
+          border: none;
+          background: #fff;
+        }
+        .scroll-content{
+          background: #f8f8f8;
         }
     </style>
     <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
+      <ion-header-bar class="bar-stable" align-title="left">
+        <h1 class="title">The Grid</h1>
+        <button class="button button-icon icon ion-ionic" ng-click="ioniconsClicked()"></button>
       </ion-header-bar>
       <ion-content>
         <div class="row">
           <div class="col-50">
             <img class="img-round" ng-src="img/img1.jpg" alt="" >
+
           </div>
           <div class="col-50">
             <img class="img-round" ng-src="img/img2.jpg" alt="" >
