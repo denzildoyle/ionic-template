@@ -1,1 +1,1 @@
-# ionic-template
+# Ionic Template
