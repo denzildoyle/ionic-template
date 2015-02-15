@@ -1,4 +1,17 @@
 /* Empty. Add your own CSS if you like */
+@font-face {
+    font-family: 'fonts/a_love_of_thunderregular';
+    src: url('../fonts/a_love_of_thunder-webfont.eot');
+    src: url('../fonts/a_love_of_thunder-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/a_love_of_thunder-webfont.woff2') format('woff2'),
+         url('../fonts/a_love_of_thunder-webfont.woff') format('woff'),
+         url('../fonts/a_love_of_thunder-webfont.ttf') format('truetype'),
+         url('../fonts/a_love_of_thunder-webfont.svg#a_love_of_thunderregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .over-lay{
 	position: absolute;
 	top: 0;
@@ -23,6 +36,8 @@
 
 .logo h1{
 	text-align: center;
+	color: #fff;
+	font-family: 'fonts/a_love_of_thunderregular'
 }
 
 .button-group button{
