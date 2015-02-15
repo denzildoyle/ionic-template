@@ -5,12 +5,24 @@
 	left: 0;
 	display: block; 
 	min-width: 100%; min-height: 100%;
-	background: rgba(19,19,19,0.50);
+	background: rgba(19,19,19,.5);
 }
 
 .button-group{
 	position: absolute;
 	bottom: 40px;
+}
+
+.logo img{
+	width: 30%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30%;
+}
+
+.logo h1{
+	text-align: center;
 }
 
 .button-group button{
