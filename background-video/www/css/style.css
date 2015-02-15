@@ -1,6 +1,6 @@
 /* Empty. Add your own CSS if you like */
 @font-face {
-    font-family: 'fonts/a_love_of_thunderregular';
+    font-family: 'a_love_of_thunderregular';
     src: url('../fonts/a_love_of_thunder-webfont.eot');
     src: url('../fonts/a_love_of_thunder-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/a_love_of_thunder-webfont.woff2') format('woff2'),
@@ -37,7 +37,7 @@
 .logo h1{
 	text-align: center;
 	color: #fff;
-	font-family: 'fonts/a_love_of_thunderregular'
+	font-family: 'a_love_of_thunderregular'
 }
 
 .button-group button{
@@ -59,6 +59,6 @@ video{
 	display: block; 
 	min-width: 100%; min-height: 100%;
 	width: auto; height: auto; z-index: -100;
-	background: url("../img/polina.jpg") no-repeat;
+	background: url("../img/placeholder.jpg") no-repeat;
 	background-size: cover;
 }
