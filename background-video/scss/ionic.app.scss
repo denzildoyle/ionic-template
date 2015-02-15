@@ -20,32 +20,3 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
-
-.over-lay{
-	position: absolute;
-	top: 0;
-	left: 0;
-	display: block; 
-	min-width: 100%; min-height: 100%;
-	background-color: rgba(136,136,219,.6);
-}
-
-.button-group button{
-	border: none;
-	padding: 30px 0;
-	background: rgba(255,255,255,0.50);
-	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.23), 0px 3px 6px 0px rgba(0,0,0,0.16);
-	border-radius: 2px;
-}
-
-video{
-	position: fixed;
-	top: 0;
-	left: 0;
-	display: block; 
-	min-width: 100%; min-height: 100%;
-	width: auto; height: auto; z-index: -100;
-	background: url(../img/polina.jpg) no-repeat;
-	background-size: cover;
-}
-
