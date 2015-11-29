@@ -1,12 +1,4 @@
 {
   "name": "background-video",
-  "app_id": "15b66fc6",
-  "gulpStartupTasks": [
-    "sass",
-    "watch"
-  ],
-  "watchPatterns": [
-    "www/**/*",
-    "!www/lib/**/*"
-  ]
+  "app_id": ""
 }
